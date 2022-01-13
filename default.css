@@ -94,11 +94,17 @@ h6 {
   background: var(--mainColor);
 }
 
-#greeting-wrapper {
+.greeting-wrapper {
   display: grid;
   text-align: center;
   align-content: center;
   min-height: 10em;
+  opacity: 0.9;
+  padding: 2em;
+
+  position: absolute;
+  top: 4em;
+  left: 500px;
 }
 
 .intro-wrapper {
